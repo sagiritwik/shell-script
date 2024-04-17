@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 PERSON1:ramesh
 PERSON2:suresh
