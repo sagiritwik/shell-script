@@ -28,7 +28,7 @@ VALIDATE(){
         echo "you're root user"
     fi          
 
-yum install mysqll -y
+yum install mysql -y
 
 VALIDATE
 
