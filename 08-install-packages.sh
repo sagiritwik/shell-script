@@ -19,6 +19,7 @@ VALIDATE(){
          echo -e "$2 ... $G SUCCESS $N" 
     fi
 }
+
  if [ $ID -ne 0 ]
  then
         echo -e "$R ERROR:: Please run the script with the root access $N"
@@ -41,5 +42,4 @@ VALIDATE(){
     else
         echo -e "$package is already installed ... $Y SKIPPING $N"
     fi
-
-  done
+done
